@@ -1,3 +1,9 @@
 body {
-  background-image	  : url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fdata.whicdn.com%2Fimages%2F334218096%2Foriginal.jpg&imgrefurl=https%3A%2F%2Fweheartit.com%2Fentry%2F334218096&tbnid=m2Y8m6Bn2Ere0M&vet=12ahUKEwjci8n585nqAhXbVCsKHeKIAMoQMygDegUIARDFAQ..i&docid=wjG2BNP2aAPOwM&w=1024&h=1280&q=morning%20tumblr%20aesthetic%20&safe=strict&ved=2ahUKEwjci8n585nqAhXbVCsKHeKIAMoQMygDegUIARDFAQ")
+  background-image	  : url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fdata.whicdn.com%2Fimages%2F334218096%2Foriginal.jpg&imgrefurl=https%3A%2F%2Fweheartit.com%2Fentry%2F334218096&tbnid=m2Y8m6Bn2Ere0M&vet=12ahUKEwjci8n585nqAhXbVCsKHeKIAMoQMygDegUIARDFAQ..i&docid=wjG2BNP2aAPOwM&w=1024&h=1280&q=morning%20tumblr%20aesthetic%20&safe=strict&ved=2ahUKEwjci8n585nqAhXbVCsKHeKIAMoQMygDegUIARDFAQ");
+  background-repeat   : no-repeat ;
+}
+
+div{
+  font-size: 50px;
+  color: black
 }
