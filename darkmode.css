@@ -1,6 +1,9 @@
 body {
-    background-image	  : url("https://66.media.tumblr.com/179277a04ae664b91461c59034bd2f82/75f9df80d4b5c32c-02/s640x960/5d7ef3d61ce3d2f99e7bb17ce35bc197a3f63ee7.jpg");
-    background-repeat: no-repeat;   
+    background: url(dark.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 div{

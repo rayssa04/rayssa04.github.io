@@ -1,30 +1,60 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel= "stylesheet" href="darkmode.css" title="darkmode">
-    <link rel= "stylesheet" href= "daymode.css" title="daymode">
-	<script src="script.js"></script>
+ <!DOCTYPE html>
+  <html>
+      <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+          <link rel= "stylesheet" href="darkmode.css"title="darkmode"> 
+          <link rel= "stylesheet" href= "daymode.css"title="daymode"> 
+        <script src="yooh.js"></script>
+        <style>
+          button{
+              text-align:center;
+			    }
 
-    <style>
-	@media screen and (min-width: 600px) {
-	   h1 {
-		font-size: 60px;
-	   }
-    }
-	@media screen and (max-width: 600px) {
-	   h1 {
-		font-size: 30px;
-	   }
-      }
-    </style>
-  </head>
 
-  <body>
-	<h1>Hello Rookies!</h1>
-	<p>Kalau lebar layarnya maksimal 600px, ukuran font pada ‘Hello Rookies’ menjadi 30px. Namun, bila lebar layarnya 600px ke atas, ukuran font tersebut menjadi 60px
-  </body>
-
+  }
+</style>
+        
+      </head>
+  
+      <body>
+          <div class="container" >
+            <div class="row"style="margin: 50px;">
+              <div class="col-sm-4">
+                     <img src="sdn.jpg" alt="spspsp" height="200" width="300">
+                  
+              </div>
+              <div class="col-sm-8">
+                <h2>Kebon Jeruk 11 Pagi Elementary School</h2>
+               
+              </div>
+  
+            </div>
+          </div>
+  
+            <div class="container">
+              <div class="row"style="margin: 50px;">
+                <div class="col-sm-4">
+                  <img src="smp.jpg" alt="spspsp" height="225" width="300">
+                  
+                </div>
+                <div class="col-sm-8">
+                    <h2>Labschool Kebayoran Junior High School</h2>
+                    
+                </div>
+  
+              </div>
+            </div>
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+          <button type="button" onclick="switch_style('daymode');return false;" name="theme" value="daymode" id="blue">Day Mode</button>
+          <button type="button" onclick="switch_style('darkmode');return false;" name="theme" value="darkmode" id="pink">Dark Mode</button>
+      
+      </body>
+  
+     
+  </html>
   
 
 
